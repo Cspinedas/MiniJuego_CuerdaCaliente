@@ -27,7 +27,7 @@ public class SeleccionPersonaje : MonoBehaviour
 
     private void CambiarPantalla()
     {
-        // Guardar el índice del personaje seleccionado
+        // Guardar el ï¿½ndice del personaje seleccionado
         PlayerPrefs.SetInt("JugadorIndex", index);
         imagen.sprite = gameManager.Personajes[index].imagen;
         nombre.text = gameManager.Personajes[index].nombre;
